@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(248, 186, 158);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    height: 95vh;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#formulario{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 40px;
+}
+
+input{
+    border-radius: 10px;
+    border: solid 2px rgb(253, 150, 102);
+}
+
+button{
+    color: white;
+    background-color: rgb(248, 186, 158);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px rgb(253, 150, 102);
+    font-size: 20px;
+    
+}
+
+button:hover{
+    background-color: rgb(253, 150, 102);
+    cursor: pointer;
+}
